@@ -75,17 +75,22 @@ nav #icon{
     nav{
         background-color: #7c6bf2;
     }
+    #image{
+        background-size: cover;
+    }
 }
 
 @media(max-width:970px){
     label.logo{
         padding: 0px 10px;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     nav #icon{
         display:block;
+        margin-right: 10px;
+
     }
     nav li{
         display: block;
@@ -122,6 +127,9 @@ nav #icon{
     }
     nav ul.show{
         left:0px;
+    }
+    #image{
+        background-size: cover;
     }
 }
 
